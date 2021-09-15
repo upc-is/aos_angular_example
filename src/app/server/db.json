@@ -1,0 +1,17 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" },
+    { "id": 2, "title": "json-server 2", "author": "typicode 2" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment 2", "postId": 1 },
+    { "id": 3, "body": "some comment 3", "postId": 1 },
+    { "id": 4, "body": "some comment 4", "postId": 2 }
+  ],
+  "profile": { "name": "typicode" },
+  "nutricionistas": [
+    { "id":  1, "lastName": "Molina", "firstName": "Pedro" },
+    { "id":  2, "lastName": "Chura", "firstName": "Ricardo" }
+  ]
+}
