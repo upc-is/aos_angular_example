@@ -10,6 +10,7 @@ import { HeaderComponent } from './pages/header/header.component';
 import { FooterComponent } from './pages/footer/footer.component';
 import { BodyComponent } from './pages/body/body.component';
 import { TableComponent } from './pages/body/table/table.component';
+import { ButtonComponent } from './pages/body/button/button.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TableComponent } from './pages/body/table/table.component';
     HeaderComponent,
     FooterComponent,
     BodyComponent,
-    TableComponent
+    TableComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
